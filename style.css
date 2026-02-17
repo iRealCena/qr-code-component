@@ -1,0 +1,79 @@
+@charset "utf-8";
+@font-face{
+	src: url("fonts/Outfit-VariableFont_wght.ttf");
+	font-family: Outfit;
+}
+body{
+	font-size: 16px;
+	background-color: hsl(212, 45%, 89%);
+	margin: 0px;
+	font-family: Outfit;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+.box{
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 20px;
+	min-width: 370px;
+	max-width: 370px;
+	padding: .1px;
+	
+}
+.boximage{
+	display: block;
+	border-radius: 15px;
+	margin: 30px auto 10px auto;
+}
+main{
+	display: flex;
+	flex: 1;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+}
+.text{
+	padding: 0px 30px;
+	text-align: center;
+}
+.text h2{
+	font-weight: 700;
+	color: hsl(218, 44%, 22%);
+}
+.text p{
+	font-weight: 400;
+	color: hsl(216, 15%, 48%);
+	padding: 10px 0px 30px;
+}
+footer div span a{
+	text-decoration: none;
+}
+footer{
+	text-align: center;
+}
+footer div{
+	background-color: hsl(216, 15%, 79%);;
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+}
+footer div p{
+	color: black;
+}
+footer div span a:hover{
+	color: hsla(203,78%,46%,1.00)
+}
+@media screen and (max-width:395px){
+	body{
+		font-size: 1.1em;
+	}
+	.box{
+	min-width: 340px;
+	max-width: 340px;
+	margin: 15px;
+	}
+	footer div{
+	width: 350px;
+	}
+}
