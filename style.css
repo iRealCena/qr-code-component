@@ -76,4 +76,10 @@ footer div span a:hover{
 	footer div{
 	width: 350px;
 	}
+	.boximage{
+	display: block;
+	border-radius: 15px;
+	margin: 15px auto 15px auto;
+ 	width: 300px;
+	}
 }
